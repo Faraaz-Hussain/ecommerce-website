@@ -26,7 +26,7 @@ const handleSubmit = async(e) => {
       <p>{JSON.stringify(form)}</p>
       <form onSubmit={handleSubmit} >
       <label htmlFor="email">Email:
-      <input type="text" id='email' name='Email' onChange={handleForm}/> 
+      <input type="text" id='email' name='email' onChange={handleForm}/> 
       </label>
       <label htmlFor="password">password:
       <input type="text" id='password' name='password' onChange={handleForm}/> 
